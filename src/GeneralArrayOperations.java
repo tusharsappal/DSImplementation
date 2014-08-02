@@ -29,8 +29,8 @@ public class GeneralArrayOperations {
         }
 
         arrayWrapper.delete(00);
-        //arrayWrapper.delete(55);
-        //arrayWrapper.delete(99);
+        arrayWrapper.delete(55);
+        arrayWrapper.delete(99);
 
         // Now displaying the array
 
