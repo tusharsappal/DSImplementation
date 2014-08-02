@@ -27,6 +27,20 @@ public class GeneralArrayOperations {
         } else {
             System.out.println("Not found " + searchKey);
         }
+        // trying to find the number by binary search
+
+        if (arrayWrapper.findByBinarySearch(55)) {
+            System.out.println("Number 55 is present in the list");
+        } else {
+            System.out.println("Number 55 is not present in the list");
+        }
+
+
+        if (arrayWrapper.findByBinarySearch(1000)) {
+            System.out.println("Number 1000 is present in the list");
+        } else {
+            System.out.println("Number 1000 is not present in the list");
+        }
 
         arrayWrapper.delete(00);
         arrayWrapper.delete(55);
@@ -51,6 +65,7 @@ class ArrayWrapper {
 
     }
 
+    // This find method iterates the list sequentially item by item , if the list grows the search time would increase
     public boolean find(long searchKey) {
         int j;
         boolean present = false;
@@ -65,6 +80,30 @@ class ArrayWrapper {
         }
         return present;
     }
+
+    // A more optimized method of searching is to apply binary searching to find the elements ,
+    // applying divide and conquer techniques
+    public boolean findByBinarySearch(long searchKey) {
+
+        int lowerBound = 0;
+        int upperBound = nELems - 1;
+        int curIn;
+        while (true) {
+            curIn = (lowerBound + upperBound) / 2;
+            if (a[curIn] == searchKey)
+                return true; // found it
+            else if (lowerBound > upperBound)
+                return false; // can’t find it
+            else // divide range
+            {
+                if (a[curIn] < searchKey)
+                    lowerBound = curIn + 1; // it’s in upper half
+                else
+                    upperBound = curIn - 1; // it’s in lower half
+            } // end else divide range
+        } // end while
+    } //
+
 
     public void insert(long value) {
         a[nELems] = value;
