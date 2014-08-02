@@ -4,7 +4,10 @@
 public class Main {
     public static void main (String args[])
     {
-        System.out.println("Hello World !!");
+        // Implementing the General Array Implementations
+
+        GeneralArrayOperations generalArrayOperations = new GeneralArrayOperations();
+        generalArrayOperations.demoOperations();
     }
 
 
