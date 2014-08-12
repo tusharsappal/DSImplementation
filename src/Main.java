@@ -24,6 +24,16 @@ public class Main {
         InsertionSort inSort = new InsertionSort();
         inSort.InsertionSort();
 
+        System.out.println("Displaying the power of general Stack Operations in Java");
+        // Implementing the Basic Stack Operations in Java
+        Stack stk = new Stack();
+        stk.stackOpeartions();
+
+
+
+
+
+
 
 
 
