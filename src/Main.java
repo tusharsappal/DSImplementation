@@ -30,10 +30,15 @@ public class Main {
         stk.stackOpeartions();
 
 
+        System.out.println("Checking for the delimiter's consistency");
+        // Implementing the Logic to check for the syntax of the statement using the basic stack operations
+        DelimiterChecker delimiterChecker  = new DelimiterChecker("a{b(c]d}e");
+        delimiterChecker.check();
 
+        // Making Another Round of Checking
 
-
-
+        DelimiterChecker delimiterChecker1 = new DelimiterChecker("{[(abc)]}");
+        delimiterChecker1.check();
 
 
 

@@ -35,7 +35,6 @@ public class GeneralArrayOperations {
             System.out.println("Number 55 is not present in the list");
         }
 
-
         if (arrayWrapper.findByBinarySearch(1000)) {
             System.out.println("Number 1000 is present in the list");
         } else {
