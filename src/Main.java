@@ -2,8 +2,7 @@
  * Created by sappal on 02-08-2014.
  */
 public class Main {
-    public static void main (String args[])
-    {
+    public static void main(String args[]) {
         // Implementing the General Array Implementations
         System.out.println("Displaying the general Array operations \n");
         GeneralArrayOperations generalArrayOperations = new GeneralArrayOperations();
@@ -32,7 +31,7 @@ public class Main {
 
         System.out.println("Checking for the delimiter's consistency");
         // Implementing the Logic to check for the syntax of the statement using the basic stack operations
-        DelimiterChecker delimiterChecker  = new DelimiterChecker("a{b(c]d}e");
+        DelimiterChecker delimiterChecker = new DelimiterChecker("a{b(c]d}e");
         delimiterChecker.check();
 
         // Making Another Round of Checking
@@ -40,14 +39,14 @@ public class Main {
         DelimiterChecker delimiterChecker1 = new DelimiterChecker("{[(abc)]}");
         delimiterChecker1.check();
 
+        // Implementing the Basic Queue Operations in Java
+        System.out.println("Displaying the power of the general Queue Operations in Java");
 
-
-
+        Queue que = new Queue();
+        que.queueOperations();
 
 
     }
-
-
 
 
 }
