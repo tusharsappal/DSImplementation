@@ -45,6 +45,11 @@ public class Main {
         Queue que = new Queue();
         que.queueOperations();
 
+        PriorityQueue pqueue = new PriorityQueue();
+        pqueue.priorityQueueOperations();
+
+
+
 
     }
 

@@ -23,6 +23,9 @@ Implementation of General Purpose Algorithms in Java Programming Language
         
        5) Basic Queue Operations implemented in Java using Arrays
        
+       6) Implementing the Priority Queue in Java using Arrays (Although the Priority Queues are implemented more efficiently using Heaps)
+       
+       
        
                
                
