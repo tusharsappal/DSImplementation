@@ -4,6 +4,7 @@
 public class BasicLinkedList {
     // This is the starting point of execution of the linkedList application and it should be called from the main method
     public void basicList() {
+
         LinkList Llist = new LinkList();
         Llist.insertAtFirstPosition(22, 2.99);
         Llist.insertAtFirstPosition(44, 4.99);
@@ -23,6 +24,42 @@ public class BasicLinkedList {
         Llist.displayList();
 
     }
+
+    public void advList() {
+        // Now using the advanceed LinkedList Options
+
+        LinkList Llist = new LinkList();
+        Llist.insertAtFirstPosition(22, 2.99);
+        Llist.insertAtFirstPosition(44, 4.99);
+        Llist.insertAtFirstPosition(66, 6.99);
+        Llist.insertAtFirstPosition(88, 8.99);
+
+        System.out.println("Printing before the element is deleted");
+        Llist.displayList();
+
+
+        Link f = Llist.find(44);
+
+        if (f != null) {
+            System.out.println("Found the link with  key " + f.iData);
+
+        } else {
+            System.out.println("Could not find the desired entity");
+        }
+
+        Link d = Llist.delete(66);
+        if (d != null) {
+            System.out.println("Deleted the link with key " + d.iData);
+        } else {
+            System.out.println("Can't delete the link");
+        }
+
+        System.out.println("Printing After the element is deleted");
+        Llist.displayList();
+
+
+    }
+
 
 }
 
@@ -90,6 +127,38 @@ class LinkList {
             current = current.next;
         }
         System.out.println(" ");
+    }
+
+
+    public Link find(int key) // find link with given key
+    { // (assumes non-empty list)
+        Link current = first; // start at ‘first’
+        while (current.iData != key) // while no match,
+        {
+            if (current.next == null) // if end of list,
+                return null; // didn’t find it
+            else // not end of list,
+                current = current.next; // go to next link
+        }
+        return current; // found it
+    }
+
+    public Link delete(int key) {
+        Link current = first;
+
+        while (current.next.iData != key && current.next != null) {
+
+            current = current.next;
+
+        }
+
+        // now we have found the  entity
+
+        Link deletedLink = current.next;
+        current.next = current.next.next;
+        return deletedLink;
+
+
     }
 
 

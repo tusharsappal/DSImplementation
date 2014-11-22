@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e494d14-be14-4fe0-b805-0ca9def6939e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BasicLinkedList.java" afterPath="$PROJECT_DIR$/src/BasicLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DSImplementation.iws" />
@@ -26,23 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1122">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7921147" vertical-offset="765" max-vertical-offset="1190">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicLinkedList.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BasicLinkedList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BasicLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7896175" vertical-offset="102" max-vertical-offset="1360">
-              <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2890">
+              <caret line="56" column="68" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="1" />
               <folding>
-                <element signature="class#Link#0" expanded="false" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
+                <element signature="e#2167#2168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +84,10 @@
         <option value="$PROJECT_DIR$/src/Queue.java" />
         <option value="$PROJECT_DIR$/src/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/LinkedListSelectDeleteInsert.java" />
+        <option value="$PROJECT_DIR$/src/AdvLinkedList.java" />
         <option value="$PROJECT_DIR$/src/BasicLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -431,7 +437,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21529563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4781457" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5933775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -513,7 +519,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1003">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="class#Link#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -850,21 +859,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/BasicLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1122">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2890">
+          <caret line="56" column="68" selection-start-line="0" selection-start-column="0" selection-end-line="164" selection-end-column="1" />
+          <folding>
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7896175" vertical-offset="102" max-vertical-offset="1360">
-          <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="class#Link#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.7921147" vertical-offset="765" max-vertical-offset="1190">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
