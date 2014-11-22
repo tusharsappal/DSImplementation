@@ -13,7 +13,7 @@ public class BasicLinkedList {
         Llist.displayList();
 
 
-        while (! Llist.isEmpty()) {
+        while (!Llist.isEmpty()) {
             Link aLink = Llist.deleteFirst();
             System.out.println("Link Deleted");
             aLink.displayLink();
