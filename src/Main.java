@@ -4,7 +4,7 @@
 public class Main {
     public static void main(String args[]) {
         // Implementing the General Array Implementations
-        System.out.println("Displaying the general Array operations \n");
+        /*System.out.println("Displaying the general Array operations \n");
         GeneralArrayOperations generalArrayOperations = new GeneralArrayOperations();
         generalArrayOperations.demoOperations();
 
@@ -46,9 +46,12 @@ public class Main {
         que.queueOperations();
 
         PriorityQueue pqueue = new PriorityQueue();
-        pqueue.priorityQueueOperations();
+        pqueue.priorityQueueOperations();*/
 
+        // Implementing the Basic Linked List Operations
 
+        BasicLinkedList bList = new BasicLinkedList();
+        bList.basicList();
 
 
     }
