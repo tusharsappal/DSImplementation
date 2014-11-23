@@ -58,6 +58,11 @@ public class Main {
         // Performing some of the advanced Linked List Operations
         System.out.println("---Advanced Linked List Operations---");
         bList.advList();
+
+        // Performing the basic Stack operations using the Linked List
+        System.out.println("---Stack Operations using the LinkedList----");
+
+        bList.stackOperationsUsingLinkedList();
     }
 
 }

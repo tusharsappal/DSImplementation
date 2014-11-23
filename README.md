@@ -27,6 +27,11 @@ Implementation of General Purpose Algorithms in Java Programming Language
        
        7) Implementing the functionality of a Simple Linked List [Insertion At First Position, Deletion from the First Position and Traversal of the List]
        
+       8) Implementing the functionality of a Simple Linked List [Insertion At Specified Position, Deletion from the Specific Position and Traversal of the List]
+       
+       9) Implementing the Stack Operations using the LinkedList Infrastructure
+       
+       
        
        
        

@@ -26,7 +26,7 @@ public class BasicLinkedList {
     }
 
     public void advList() {
-        // Now using the advanceed LinkedList Options
+// Now using the advanceed LinkedList Options
 
         LinkList Llist = new LinkList();
         Llist.insertAtFirstPosition(22, 2.99);
@@ -60,6 +60,33 @@ public class BasicLinkedList {
 
     }
 
+    public void stackOperationsUsingLinkedList() {
+// We will first use the insertFirst to Insert at the First position , this would be analogous to push operation
+
+        LinkList stackLinkList = new LinkList();
+
+        stackLinkList.insertAtFirstPosition(10, 10.5);
+// Now the push operation continues
+        stackLinkList.insertAtFirstPosition(20, 10.5);
+        stackLinkList.insertAtFirstPosition(40, 10.5);
+        stackLinkList.insertAtFirstPosition(60, 10.5);
+        stackLinkList.insertAtFirstPosition(80, 10.5);
+        // Displaying the list after the push operations
+        System.out.println("After the push operations the stack is ------");
+        stackLinkList.displayList();
+
+        //Now the pop operations will follow , popping out individual eateries from the list
+        // DeleteFirst Method will be analogous to popping out the elements form the list
+        stackLinkList.deleteFirst();
+        stackLinkList.deleteFirst();
+        stackLinkList.deleteFirst();
+
+// Now displaying the remaining list elements
+        System.out.println("After the pop operations the stack is ------");
+        stackLinkList.displayList();
+
+    }
+
 
 }
 
@@ -74,7 +101,7 @@ class Link {
         iData = id;
         dData = dd;
 
-        // initializing the data and the next is automatically set to null
+// initializing the data and the next is automatically set to null
 
     }
 
@@ -152,7 +179,7 @@ class LinkList {
 
         }
 
-        // now we have found the  entity
+// now we have found the  entity
 
         Link deletedLink = current.next;
         current.next = current.next.next;
