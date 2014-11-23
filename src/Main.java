@@ -3,6 +3,7 @@
  */
 public class Main {
     public static void main(String args[]) {
+
         // Implementing the General Array Implementations
         System.out.println("Displaying the general Array operations \n");
         GeneralArrayOperations generalArrayOperations = new GeneralArrayOperations();
@@ -57,8 +58,6 @@ public class Main {
         // Performing some of the advanced Linked List Operations
         System.out.println("---Advanced Linked List Operations---");
         bList.advList();
-
     }
-
 
 }

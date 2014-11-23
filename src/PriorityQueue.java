@@ -29,9 +29,7 @@ public class PriorityQueue {
             System.out.println();
         }
 
-
         System.out.println();
-
 
     }
 
