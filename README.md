@@ -31,6 +31,11 @@ Implementation of General Purpose Algorithms in Java Programming Language
        
        9) Implementing the Stack Operations using the LinkedList Infrastructure
        
+       10) Implementing the Queue Operations using the Single LinkedList Infrastructure
+       
+        
+        
+       
        
        
        

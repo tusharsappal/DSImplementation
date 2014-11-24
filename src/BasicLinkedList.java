@@ -26,7 +26,7 @@ public class BasicLinkedList {
     }
 
     public void advList() {
-// Now using the advanceed LinkedList Options
+// Now using the advanced LinkedList Options
 
         LinkList Llist = new LinkList();
         Llist.insertAtFirstPosition(22, 2.99);
@@ -61,12 +61,12 @@ public class BasicLinkedList {
     }
 
     public void stackOperationsUsingLinkedList() {
-// We will first use the insertFirst to Insert at the First position , this would be analogous to push operation
+        // We will first use the insertFirst to Insert at the First position , this would be analogous to push operation
 
         LinkList stackLinkList = new LinkList();
 
         stackLinkList.insertAtFirstPosition(10, 10.5);
-// Now the push operation continues
+        // Now the push operation continues
         stackLinkList.insertAtFirstPosition(20, 10.5);
         stackLinkList.insertAtFirstPosition(40, 10.5);
         stackLinkList.insertAtFirstPosition(60, 10.5);
@@ -81,12 +81,40 @@ public class BasicLinkedList {
         stackLinkList.deleteFirst();
         stackLinkList.deleteFirst();
 
-// Now displaying the remaining list elements
+        // Now displaying the remaining list elements
         System.out.println("After the pop operations the stack is ------");
         stackLinkList.displayList();
-
     }
 
+
+    public void queueOpeartionsUsingLinkedList() {
+        LinkList queueOpr = new LinkList();
+
+        System.out.println("Insertion in the Queue");
+
+        queueOpr.insertAtLastPosition(10, 10.5);
+
+        queueOpr.insertAtLastPosition(20, 10.5);
+        queueOpr.insertAtLastPosition(40, 10.5);
+        queueOpr.insertAtLastPosition(60, 10.5);
+        queueOpr.insertAtLastPosition(80, 10.5);
+
+
+        // Displaying the contents of the queue
+
+        queueOpr.displayList();
+
+        // Now pulling of the elements from the head of the list using the deleteFirstElement Option
+        System.out.print("Pulling elements out of the queue");
+
+        queueOpr.deleteFirst();
+        queueOpr.deleteFirst();
+        queueOpr.deleteFirst();
+
+        // Now again displaying the contents of the queue
+
+        queueOpr.displayList();
+    }
 
 }
 
@@ -131,7 +159,6 @@ class LinkList {
     }
 
     public void insertAtFirstPosition(int id, double dd) {
-
         Link newLink = new Link(id, dd);
 
         newLink.next = first;
@@ -139,6 +166,27 @@ class LinkList {
 
     }
 
+
+    public void insertAtLastPosition(int id, double dd) {
+        Link newLink = new Link(id, dd);
+
+        // This method is used to push the entity on the last position of the LinkedList
+
+
+        if (first == null) {
+            first = newLink;
+        }
+
+        Link current = first;
+
+        while (current.next != null) {
+            current = current.next;
+        }
+
+        current.next = newLink;
+        newLink.next = null;
+
+    }
 
     public Link deleteFirst() {
         Link temp = first;

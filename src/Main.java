@@ -61,8 +61,13 @@ public class Main {
 
         // Performing the basic Stack operations using the Linked List
         System.out.println("---Stack Operations using the LinkedList----");
-
         bList.stackOperationsUsingLinkedList();
+
+        // Performing the basic queue operations using the Linked List Infrastructure
+
+        System.out.println("---Queue Operations using the LinkedList-----");
+        bList.queueOpeartionsUsingLinkedList();
+
     }
 
 }
