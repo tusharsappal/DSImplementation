@@ -68,6 +68,16 @@ public class Main {
         System.out.println("---Queue Operations using the LinkedList-----");
         bList.queueOpeartionsUsingLinkedList();
 
+        // Displaying insertion , deletion and other operations using a Doubly Linked List
+        DoublyLinkedList dbList = new DoublyLinkedList();
+        // Calling the insertion and forward display function
+        System.out.println("Calling insertion at First Location and displaying the list in forward direction");
+        dbList.basicInsertionDoublyLinkedListFirst();
+        System.out.println("Calling insertion at Last Location and displaying the list in forward direction");
+        dbList.basicInsertionDoublyLinkedListLast();
+        System.out.println("Calling insertion at First Location, deletion at first location and then  displaying the list in forward direction");
+        dbList.basicDeletionFirstDoublyLinkedList();
+
     }
 
 }
